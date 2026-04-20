@@ -1,0 +1,241 @@
+<!-- First : UBER button  -->
+<!-- Second : Amazon Button  -->
+<!-- Third : Github  -->
+<!-- Fourth : Bootstrap  -->
+<!-- Fifth : Linkedin  -->
+<!-- Sixth : Challenge -->
+
+<style>
+    .uber-button
+    {
+        background-color: black;
+        color: white;
+        border: none;
+        padding-top: 9px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 9px;
+        cursor: pointer;
+        transition: opacity 0.15s;
+        vertical-align: top;
+    }
+
+    .uber-button:hover
+    {
+        opacity: 0.8;
+    }
+
+    .amazon-button
+    {
+        background-color: rgb(255, 216, 20);
+        margin-left: 10px;
+        border: none;
+        border-radius: 15px;
+        height: 40px;
+        width: 200px;
+        cursor: pointer;
+        transition: background-color 0.5s;
+        padding-top: 9px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 9px;
+        vertical-align: top;
+
+    }
+
+    .amazon-button:hover
+    {
+        background-color: rgb(255, 200, 20);
+    }
+
+    .github-button
+    {
+        background-color: rgb(46, 164, 79);
+        color: white;
+        border: none;
+        margin-left: 10px;
+        padding-top: 9px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 9px;
+        font-weight: bold;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: box-shadow 0.5s;
+        vertical-align: top;
+    }
+
+    .github-button:hover
+    {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .bootstrap-get-started-button
+    {
+        background-color: rgb(121, 82, 179);
+        border: none;
+        color: white;
+        margin-left: 10px;
+        padding: 10px;
+        border-radius: 2px;
+        font-weight: bold;
+        padding-top: 9px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 9px;
+        cursor: pointer;
+        transition: background-color 0.5s;
+        vertical-align: top;
+    }
+
+    .bootstrap-get-started-button:hover
+    {
+        background-color: rgb(121, 62, 179);
+    }
+
+    .bootstrap-download-button
+    {
+        background-color: white;
+        color: rgb(108, 117, 125);
+        border-style: solid;
+        border-width: 1px;
+        margin-left: 10px;
+        padding-top: 9px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 9px;
+        border-radius: 2px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.5s, color 0.5s;
+        vertical-align: top;
+    }
+
+    .bootstrap-download-button:hover
+    {
+        background-color: rgb(108, 117, 125);
+        color:white;
+    }
+
+    .linkedin-apply-button
+    {
+        background-color: rgb(10, 102, 194);
+        color: white;
+        padding-top: 9px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 9px;
+        margin-left: 10px;
+        font-weight: bold;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: background-color 0.5s;
+        vertical-align: top;
+    }
+
+    .linkedin-apply-button:hover
+    {
+        background-color: rgb(10, 82, 194);
+    }
+
+    .linkedin-save-button
+    {
+        background-color: white;
+        color:  rgb(10, 102, 194);
+        padding-top: 9px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 9px;
+        border-width: 1px;
+        border-color: rgb(10, 102, 194);
+        border-radius: 20px;
+        margin-left: 10px;
+        font-weight: bold;
+        border-style: solid;
+        transition: border-width 0.5s;
+        vertical-align: top;
+    }
+
+    .linkedin-save-button:hover
+    {
+        border-width: 5px;
+    }
+
+    .backtoamazon
+    {
+        color: rgb(0, 113, 133);
+    }
+
+    .backtoamazon:hover
+    {
+        color: red;
+    }
+
+    .stock
+    {
+        color: rgb(0, 118, 0);
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .free-delivery
+    {
+        font-size: 15px;
+    }
+
+    .addtocart
+    {
+        background-color: rgb(255, 216, 20);
+        border: none;
+        border-radius: 20px;
+        padding-top: 9px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 9px;
+        cursor: pointer;
+        vertical-align: top;
+    }
+
+    .addtocart:hover
+    {
+        background-color: rgb(255, 196, 20);
+    }
+
+    .buynow
+    {
+        background-color: rgb(255, 164, 28);
+        border: none;
+        border-radius: 20px;
+        margin-left: 10px;
+        padding-top: 9px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 9px;
+        cursor: pointer;
+        vertical-align: top;
+    }
+
+    .buynow:hover
+    {
+        background-color: rgb(255, 134, 28);
+    }
+
+</style>
+<button class="uber-button">Request now</button>
+<button class="amazon-button">Add to Cart</button>
+<button class="github-button">Sign Up</button>
+
+<button class="bootstrap-get-started-button">Get Started</button>
+<button class="bootstrap-download-button">Download</button>
+
+<button class="linkedin-apply-button">Apply on company website</button>
+<button class="linkedin-save-button">Save</button>
+
+<br><br>
+<a class="backtoamazon" href="https://www.amazon.in" target="_blank">Back to Amazon</a>
+<h1>Nike Black Running Shoes</h1>
+<p class="stock">$39 - in stock.</p>
+<p class="free-delivery">Free delivery tomorrow.</p>
+
+<button class="addtocart">Add to Cart</button>
+<button class="buynow">Buy Now</button>
